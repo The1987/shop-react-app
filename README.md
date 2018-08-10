@@ -1,1 +1,1 @@
-# shop-react-app
+# react-app-tour-finder
