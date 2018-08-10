@@ -1,12 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
-import { BrowserRouter } from 'react-router-dom';
+// import { BrowserRouter } from 'react-router-dom';
 
+// Shopify //
+import {AppProvider} from "@shopify/polaris";
+import "@shopify/polaris/styles.css";
 
 ReactDOM.render(
-	<BrowserRouter>
+	// <BrowserRouter>
+	// 	<App />
+	// </BrowserRouter>,
+	<AppProvider>
 		<App />
-	</BrowserRouter>,
+		</AppProvider>,
 	document.getElementById('root')
 )

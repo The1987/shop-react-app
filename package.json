@@ -24,6 +24,7 @@
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.0-14",
     "@material-ui/core": "^1.4.0",
+    "@shopify/polaris": "^2.5.0",
     "aws-sdk": "^2.282.1",
     "axios": "^0.16.2",
     "bcryptjs": "^2.4.3",
